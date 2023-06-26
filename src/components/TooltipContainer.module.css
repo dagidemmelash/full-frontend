@@ -1,0 +1,34 @@
+.label {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 176px;
+}
+.tooltip1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray-200);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.rectangleIcon {
+  position: relative;
+  width: 16px;
+  height: 12px;
+}
+.tooltip {
+  position: absolute;
+  top: calc(50% - 84.5px);
+  left: calc(50% - 74px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--other-light-background-white);
+  font-family: var(--body-medium);
+}

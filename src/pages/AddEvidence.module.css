@@ -1,0 +1,346 @@
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dateAndTime {
+  position: absolute;
+  top: 238px;
+  left: 299px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--body-medium);
+  display: flex;
+  align-items: center;
+  width: 353px;
+}
+.addEvidenceChild {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 278px;
+  left: 299px;
+  border-radius: var(--br-3xs);
+  width: 740px;
+  height: 60px;
+}
+.crimeType {
+  position: absolute;
+  top: 374px;
+  left: 299px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--body-medium);
+  display: flex;
+  align-items: center;
+  width: 174px;
+}
+.addEvidenceItem {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 414px;
+  left: 299px;
+  border-radius: var(--br-3xs);
+  width: 740px;
+  height: 60px;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+}
+.button,
+.buttonS40,
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.buttonS40 {
+  border-radius: var(--br-xs);
+}
+.button {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonS40 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  top: 787px;
+  left: 591px;
+  width: 197px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS40:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.addEvidenceInner {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 551px;
+  left: 299px;
+  border-radius: var(--br-xl);
+  width: 739px;
+  height: 206px;
+}
+.crimeDescription {
+  top: 514px;
+  left: 299px;
+  line-height: 24px;
+  font-family: var(--body-medium);
+  display: flex;
+  align-items: center;
+  width: 272px;
+}
+.addEvidence1,
+.crimeDescription,
+.logout1 {
+  position: absolute;
+  font-weight: 600;
+}
+.addEvidence1 {
+  top: 145px;
+  left: 589px;
+  font-size: var(--font-size-21xl);
+  text-decoration: underline;
+  line-height: 24px;
+  font-family: var(--body-medium);
+  display: flex;
+  align-items: center;
+  width: 255px;
+}
+.logout1 {
+  top: 0;
+  left: 31px;
+  line-height: 21px;
+}
+.iconoutlinelogout {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.logout {
+  text-decoration: none;
+  position: absolute;
+  top: 992px;
+  left: 115px;
+  width: 93px;
+  height: 21px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+  color: var(--color-red-200);
+}
+.logout:hover {
+  animation: 1s ease 0s 1 normal none shadow-pop-tr;
+  opacity: 1;
+}
+.profile {
+  margin: 0;
+  position: absolute;
+  top: 59px;
+  left: 83px;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 161px;
+}
+.bereketBogale,
+.bereketBogale1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bereketBogale {
+  margin: 0;
+  top: 107px;
+  left: 66px;
+  width: 190px;
+  height: 30px;
+  font-size: var(--headline-small-size);
+  font-family: inherit;
+}
+.imageIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.avatar,
+.icon,
+.iconoutlinemail {
+  position: absolute;
+  cursor: pointer;
+}
+.avatar {
+  height: 100%;
+  width: 48.28%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 51.72%;
+}
+.icon,
+.iconoutlinemail {
+  overflow: hidden;
+}
+.icon {
+  height: 62.08%;
+  width: 79.44%;
+  top: 18.96%;
+  right: 10.28%;
+  bottom: 18.96%;
+  left: 10.28%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconoutlinemail {
+  height: 66.67%;
+  width: 31.03%;
+  top: 18.75%;
+  right: 68.97%;
+  bottom: 14.58%;
+  left: 0;
+}
+.instanceChild {
+  position: absolute;
+  height: 27.08%;
+  width: 14.94%;
+  top: 18.75%;
+  right: 65.52%;
+  bottom: 54.17%;
+  left: 19.54%;
+  border-radius: 50%;
+  background-color: var(--color-red-200);
+}
+.div {
+  position: absolute;
+  top: 12.5%;
+  left: 24.14%;
+  line-height: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.avatarParent {
+  position: absolute;
+  top: 64px;
+  left: 1213px;
+  width: 87px;
+  height: 48px;
+  text-align: right;
+  font-size: var(--font-size-7xs);
+}
+.groupIcon {
+  position: absolute;
+  height: 1.96%;
+  width: 1.65%;
+  top: 17.92%;
+  right: 91.77%;
+  bottom: 80.12%;
+  left: 6.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon1,
+.viewChart {
+  position: absolute;
+  height: 24px;
+}
+.viewChart {
+  text-decoration: none;
+  top: 214.5px;
+  left: 130px;
+  font-size: var(--body-medium-size);
+  color: inherit;
+  display: inline-block;
+  width: 87px;
+  cursor: pointer;
+}
+.viewChart:active,
+.viewChart:hover {
+  color: var(--other-light-background-white);
+}
+.viewChart:hover {
+  cursor: pointer;
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.viewChart:active {
+  text-shadow: 0 4px 4px rgba(76, 63, 63, 0.25);
+}
+.icon1 {
+  top: 285px;
+  left: 89px;
+  width: 24px;
+  overflow: hidden;
+}
+.viewCriminal {
+  text-decoration: none;
+  position: absolute;
+  top: 284.5px;
+  left: 122px;
+  font-size: var(--body-medium-size);
+  color: inherit;
+  cursor: pointer;
+}
+.viewCriminal:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.addEvidence {
+  position: relative;
+  width: 100%;
+  height: 1172px;
+  overflow: hidden;
+  background-image: url(/public/add-evidence@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--other-light-background-white);
+  font-family: var(--bold-16);
+}

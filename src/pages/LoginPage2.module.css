@@ -1,0 +1,194 @@
+.loginPageChild,
+.noiseTexture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1024px;
+}
+.loginPageChild {
+  background-color: var(--color-gray);
+  width: 608px;
+  overflow: hidden;
+}
+.noiseTexture {
+  width: 603px;
+  object-fit: cover;
+}
+.component1Child,
+.component1Inner,
+.component1Item {
+  position: absolute;
+  height: 100%;
+  width: 99.8%;
+  top: 0;
+  right: 0.2%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray);
+}
+.component1Inner,
+.component1Item {
+  width: 62.6%;
+  right: 0;
+  left: 37.4%;
+  background-color: var(--color-aliceblue);
+}
+.component1Inner {
+  border: 0;
+  background-color: var(--other-light-background-white);
+  height: 11.15%;
+  width: 42.32%;
+  top: 28.1%;
+  right: 10.35%;
+  bottom: 60.75%;
+  left: 47.34%;
+  border-radius: var(--br-xl);
+}
+.id {
+  margin: 0;
+  position: absolute;
+  top: 22.76%;
+  left: 48.67%;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.password,
+.rectangleInput {
+  position: absolute;
+  top: 42.86%;
+  left: 48.05%;
+}
+.rectangleInput {
+  border: 0;
+  background-color: var(--other-light-background-white);
+  height: 10.36%;
+  width: 42.32%;
+  top: 48.19%;
+  right: 10.35%;
+  bottom: 41.44%;
+  left: 47.34%;
+  border-radius: var(--br-xl);
+}
+.federalOffice {
+  margin: 0;
+}
+.federalOfficeDepartmentContainer {
+  position: absolute;
+  height: 17.9%;
+  width: 31.35%;
+  top: 37.52%;
+  left: 1.95%;
+  font-size: var(--font-size-24xl);
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--other-light-background-white);
+  white-space: pre-wrap;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+}
+.button,
+.buttonS40,
+.label {
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.buttonS40 {
+  border-radius: var(--br-xs);
+}
+.button {
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonS40 {
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  height: 6.28%;
+  width: 22.54%;
+  top: 67.66%;
+  right: 20.29%;
+  bottom: 26.06%;
+  left: 57.17%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS40:hover {
+  background-color: var(--color-darkslateblue);
+}
+.noiseTexture1 {
+  position: absolute;
+  height: 94.19%;
+  width: 35.86%;
+  top: 3.61%;
+  right: 62.6%;
+  bottom: 2.2%;
+  left: 1.54%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component1 {
+  position: absolute;
+  top: 138px;
+  left: 278px;
+  box-shadow: 8px -8px 6px rgba(0, 0, 0, 0.25),
+    -11px 15px 17px rgba(0, 0, 0, 0.7);
+  width: 976px;
+  height: 637px;
+}
+.loginPage2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+.loginPage1 {
+  background-color: var(--other-light-background-white);
+  overflow: hidden;
+}
+.loginPage1,
+.loginPageInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.loginPage {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-black);
+  font-family: var(--text-sm-normal);
+}

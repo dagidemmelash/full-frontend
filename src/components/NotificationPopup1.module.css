@@ -1,0 +1,94 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.notifications {
+  position: absolute;
+  top: 66px;
+  left: 333px;
+  font-size: var(--headline-small-size);
+  line-height: 21px;
+  font-weight: 600;
+  color: var(--other-light-background-white);
+}
+.notificationPopupChild {
+  border: 0;
+  top: 131px;
+  height: 79px;
+}
+.notificationPopupChild,
+.notificationPopupInner,
+.notificationPopupItem,
+.rectangleInput {
+  position: absolute;
+  left: 101px;
+  border-radius: var(--br-7xl);
+  background-color: var(--other-light-background-white);
+  width: 605px;
+}
+.notificationPopupItem {
+  border: 0;
+  top: 226px;
+  height: 79px;
+}
+.notificationPopupInner,
+.rectangleInput {
+  top: 323px;
+  height: 77px;
+}
+.rectangleInput {
+  border: 0;
+  top: 419px;
+  left: 104px;
+  height: 79px;
+}
+.newUpdate,
+.newUpdate1,
+.newUpdate2,
+.newUpdate3 {
+  position: absolute;
+  top: 160px;
+  left: 174px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.newUpdate1,
+.newUpdate2,
+.newUpdate3 {
+  top: 255px;
+  left: 178px;
+}
+.newUpdate2,
+.newUpdate3 {
+  top: 349px;
+}
+.newUpdate3 {
+  top: 448px;
+  left: 177px;
+}
+.notificationPopup {
+  position: relative;
+  width: 806px;
+  height: 598px;
+  overflow: hidden;
+  background-image: url(/public/notification-popup@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+  font-family: var(--bold-16);
+}
+.notificationPopup.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

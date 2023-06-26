@@ -1,0 +1,959 @@
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.manage {
+  top: 208px;
+  left: 1040px;
+  font-size: var(--headline-small-size);
+  color: var(--other-light-background-white);
+  display: inline-block;
+  width: 92px;
+  height: 32px;
+}
+.manage,
+.profile,
+.title {
+  position: absolute;
+}
+.profile {
+  margin: 0;
+  top: 40px;
+  left: 45px;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--other-light-background-white);
+}
+.title {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 71px;
+  height: 22.31px;
+}
+.digits,
+.elementsLineGorizontal,
+.elementsLineGorizontal1 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 332px;
+  height: 5.31px;
+}
+.digits,
+.elementsLineGorizontal1 {
+  width: 268px;
+}
+.digits {
+  top: 5.31px;
+  left: 195px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  width: 143px;
+  height: 22.31px;
+}
+.crimeType {
+  position: absolute;
+  top: 267.6px;
+  left: 1040px;
+  width: 338px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.digits1,
+.title1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+  height: 22.31px;
+}
+.digits1 {
+  top: 1.06px;
+  left: 277px;
+  text-align: right;
+  width: 59px;
+}
+.elementsLineGorizontal3,
+.region {
+  position: absolute;
+  top: 30.67px;
+  left: 0;
+  width: 215.44px;
+  height: 5.52px;
+}
+.region {
+  top: 331.34px;
+  left: 1040px;
+  width: 336px;
+  height: 36.19px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.digits2,
+.title2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 48px;
+  height: 22.31px;
+}
+.digits2 {
+  top: 1.06px;
+  left: 260px;
+  text-align: right;
+  width: 76px;
+}
+.elementsLineGorizontal5 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 110px;
+  height: 5.31px;
+}
+.gender,
+.title3 {
+  position: absolute;
+}
+.gender {
+  top: 396.14px;
+  left: 1040px;
+  width: 336px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.title3 {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 26px;
+  height: 22.31px;
+}
+.age,
+.elementsLineGorizontal7 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 42px;
+  height: 5.31px;
+}
+.age {
+  top: 459.88px;
+  left: 1040px;
+  width: 336px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.seeAllCriminals {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.iconoutlinecheveronRight {
+  position: absolute;
+  top: 1px;
+  left: 137px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.btn {
+  position: absolute;
+  top: 1100px;
+  left: 1055px;
+  width: 151px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--bold-11px-cap-size);
+  color: var(--other-light-background-white);
+}
+.jennyWilson {
+  position: absolute;
+  top: 0;
+  left: 49px;
+  line-height: 22px;
+}
+.imageIcon {
+  position: absolute;
+  top: 6.64px;
+  left: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.wlawsonexamplecom {
+  position: absolute;
+  top: 25px;
+  left: 49px;
+  line-height: 22px;
+  color: var(--color-dimgray-100);
+}
+.title11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 203px;
+  height: 47px;
+}
+.adama,
+.cybercrime {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  line-height: 22px;
+}
+.cybercrime {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--other-light-background-white);
+}
+.title21 {
+  position: absolute;
+  top: 1px;
+  left: 262px;
+  width: 74px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.div {
+  top: 819px;
+  left: 1045px;
+  width: 336px;
+  height: 47px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.awasa,
+.div,
+.title12 {
+  position: absolute;
+}
+.title12 {
+  top: 0;
+  left: 0;
+  width: 217px;
+  height: 47px;
+}
+.awasa {
+  top: 24px;
+  left: 34px;
+  line-height: 22px;
+}
+.div1,
+.title13 {
+  position: absolute;
+  height: 47px;
+}
+.div1 {
+  top: 888px;
+  left: 1045px;
+  width: 336px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.title13 {
+  top: 0;
+  left: 0;
+  width: 196px;
+}
+.addisAbaba {
+  top: 24px;
+  left: 0;
+  line-height: 22px;
+}
+.addisAbaba,
+.fraud,
+.title23 {
+  position: absolute;
+}
+.fraud {
+  top: 0;
+  left: 43px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--other-light-background-white);
+}
+.title23 {
+  top: 1px;
+  left: 257px;
+  width: 79px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.div2,
+.title14 {
+  position: absolute;
+  height: 47px;
+}
+.div2 {
+  top: 957px;
+  left: 1045px;
+  width: 336px;
+  font-size: var(--regular-13-size);
+  color: var(--other-light-background-white);
+}
+.title14 {
+  top: 0;
+  left: 0;
+  width: 193px;
+}
+.diredawa {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  line-height: 22px;
+}
+.title24 {
+  position: absolute;
+  top: 1px;
+  left: 245px;
+  width: 91px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.criminalRecordsSummary,
+.div3 {
+  position: absolute;
+  left: 1045px;
+  font-size: var(--regular-13-size);
+}
+.div3 {
+  top: 1026px;
+  width: 336px;
+  height: 47px;
+  color: var(--other-light-background-white);
+}
+.criminalRecordsSummary {
+  top: 768px;
+  line-height: 22px;
+  color: var(--color-dimgray-100);
+}
+.recentCriminals,
+.text {
+  position: absolute;
+  top: 740px;
+  left: 1045px;
+  line-height: 24px;
+  color: var(--other-light-background-white);
+}
+.text {
+  top: 152px;
+  left: 1040px;
+  display: inline-block;
+  color: var(--color-whitesmoke-200);
+  width: 226px;
+  height: 25px;
+}
+.last7Days {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+}
+.iconoutlinecheveronDown {
+  position: absolute;
+  top: 5px;
+  left: 68px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.sort {
+  position: absolute;
+  top: 155px;
+  left: 1310px;
+  width: 82px;
+  height: 20px;
+  text-align: right;
+  font-size: var(--semi-bold-11-size);
+  color: var(--color-whitesmoke-100);
+}
+.bereketBogale,
+.bereketBogale1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bereketBogale {
+  top: 87px;
+  left: 36px;
+  width: 178px;
+  height: 30px;
+  font-size: var(--headline-small-size);
+  color: var(--other-light-background-white);
+}
+.inputtextStyle2 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--bold-16);
+  font-size: var(--body-small-size);
+  background-color: var(--other-light-background-white);
+  position: absolute;
+  top: 49px;
+  left: 330px;
+  border-radius: var(--br-7xs);
+  width: 583px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.logout1 {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.iconoutlinelogout {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.logout {
+  text-decoration: none;
+  position: absolute;
+  top: 1221px;
+  left: 102px;
+  width: 105px;
+  height: 21px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+  color: var(--color-red-200);
+}
+.logout:hover {
+  animation: 1s ease 0s 1 normal none shadow-pop-tr;
+  opacity: 1;
+}
+.criminalListChild {
+  position: absolute;
+  top: 239px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 48px;
+}
+.detailsOfCriminals,
+.nameOfCriminals,
+.no {
+  position: absolute;
+  top: 251px;
+  left: 273px;
+  line-height: 24px;
+}
+.detailsOfCriminals,
+.nameOfCriminals {
+  left: 501px;
+  color: var(--color-gray-100);
+}
+.detailsOfCriminals {
+  left: 792px;
+}
+.criminalListInner,
+.criminalListItem,
+.rectangleDiv {
+  position: absolute;
+  top: 343px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 64px;
+}
+.criminalListInner,
+.rectangleDiv {
+  top: 603px;
+}
+.rectangleDiv {
+  top: 425px;
+}
+.criminalListChild1,
+.criminalListChild2,
+.criminalListChild3,
+.criminalListChild4,
+.criminalListChild5 {
+  position: absolute;
+  top: 863px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 64px;
+}
+.criminalListChild2,
+.criminalListChild3,
+.criminalListChild4,
+.criminalListChild5 {
+  top: 685px;
+}
+.criminalListChild3,
+.criminalListChild4,
+.criminalListChild5 {
+  top: 514px;
+  left: 211px;
+}
+.criminalListChild4,
+.criminalListChild5 {
+  top: 945px;
+  left: 210px;
+}
+.criminalListChild5 {
+  top: 774px;
+  left: 211px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  position: absolute;
+  top: 357px;
+  left: 277px;
+  line-height: 24px;
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 617px;
+}
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 439px;
+}
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 877px;
+}
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 699px;
+}
+.b5,
+.b6,
+.b7 {
+  top: 528px;
+  left: 278px;
+}
+.b6,
+.b7 {
+  top: 959px;
+  left: 277px;
+}
+.b7 {
+  top: 788px;
+  left: 278px;
+}
+.biniyamMoges,
+.biniyamMoges1,
+.biniyamMoges2 {
+  position: absolute;
+  top: 357px;
+  left: 512px;
+  line-height: 24px;
+  color: var(--color-gray-100);
+}
+.biniyamMoges1,
+.biniyamMoges2 {
+  top: 617px;
+}
+.biniyamMoges2 {
+  top: 439px;
+}
+.biniyamMoges3,
+.biniyamMoges4,
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  position: absolute;
+  top: 877px;
+  left: 512px;
+  line-height: 24px;
+  color: var(--color-gray-100);
+}
+.biniyamMoges4,
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 699px;
+}
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 528px;
+  left: 513px;
+}
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 959px;
+  left: 512px;
+}
+.biniyamMoges7 {
+  top: 788px;
+  left: 513px;
+}
+.viewCriminalInformation,
+.viewCriminalInformation1 {
+  position: absolute;
+  top: 347px;
+  left: 758px;
+  font-size: var(--semi-bold-11-size);
+  line-height: 16px;
+  display: inline-block;
+  text-align: center;
+  width: 208px;
+  height: 12px;
+}
+.viewCriminalInformation1 {
+  top: 428px;
+  left: 759px;
+}
+.viewCriminalInformation2,
+.viewCriminalInformation3,
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  position: absolute;
+  top: 521px;
+  left: 766px;
+  font-size: var(--semi-bold-11-size);
+  line-height: 16px;
+  display: inline-block;
+  text-align: center;
+  width: 208px;
+  height: 12px;
+}
+.viewCriminalInformation3,
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 612px;
+  left: 770px;
+}
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 698px;
+  left: 771px;
+}
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 786px;
+  left: 770px;
+}
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 876px;
+}
+.viewCriminalInformation7 {
+  top: 955px;
+  left: 774px;
+}
+.imageIcon4 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.avatar,
+.icon,
+.iconoutlinemail {
+  position: absolute;
+  cursor: pointer;
+}
+.avatar {
+  height: 100%;
+  width: 48.28%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 51.72%;
+}
+.icon,
+.iconoutlinemail {
+  overflow: hidden;
+}
+.icon {
+  height: 62.08%;
+  width: 79.44%;
+  top: 18.96%;
+  right: 10.28%;
+  bottom: 18.96%;
+  left: 10.28%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconoutlinemail {
+  height: 66.67%;
+  width: 31.03%;
+  top: 18.75%;
+  right: 68.97%;
+  bottom: 14.58%;
+  left: 0;
+}
+.instanceChild {
+  position: absolute;
+  height: 27.08%;
+  width: 14.94%;
+  top: 18.75%;
+  right: 65.52%;
+  bottom: 54.17%;
+  left: 19.54%;
+  border-radius: 50%;
+  background-color: var(--color-red-200);
+}
+.div4 {
+  position: absolute;
+  top: 12.5%;
+  left: 24.14%;
+  line-height: 20px;
+  font-weight: 500;
+}
+.avatarParent {
+  position: absolute;
+  top: 45px;
+  left: 1251px;
+  width: 87px;
+  height: 48px;
+  text-align: right;
+  font-size: var(--font-size-7xs);
+  color: var(--other-light-background-white);
+}
+.groupIcon {
+  position: absolute;
+  height: 1.65%;
+  width: 1.6%;
+  top: 17.11%;
+  right: 95.42%;
+  bottom: 81.25%;
+  left: 2.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon1,
+.viewChart {
+  position: absolute;
+  height: 24px;
+}
+.viewChart,
+.viewChart:hover {
+  color: var(--other-light-background-white);
+  cursor: pointer;
+}
+.viewChart {
+  text-decoration: none;
+  top: 243.5px;
+  left: 81px;
+  display: inline-block;
+  width: 87px;
+}
+.viewChart:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.viewChart:active {
+  text-shadow: 0 4px 4px rgba(76, 63, 63, 0.25);
+}
+.icon1 {
+  top: 314px;
+  left: 40px;
+  width: 24px;
+  overflow: hidden;
+}
+.label1,
+.viewChart:active,
+.viewCriminal {
+  color: var(--other-light-background-white);
+}
+.viewCriminal {
+  text-decoration: none;
+  position: absolute;
+  top: 313.5px;
+  left: 73px;
+  cursor: pointer;
+}
+.viewCriminal:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--bold-11px-cap-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  text-align: center;
+}
+.button,
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  border-radius: var(--br-xs);
+}
+.buttonS41,
+.buttonS42,
+.buttonS43,
+.buttonS44,
+.buttonS45,
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  top: 980px;
+  left: 824px;
+  border-radius: var(--br-xs);
+  width: 93px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS41:hover,
+.buttonS42:hover,
+.buttonS43:hover,
+.buttonS44:hover,
+.buttonS45:hover,
+.buttonS46:hover,
+.buttonS47:hover,
+.buttonS48:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.buttonS42,
+.buttonS43,
+.buttonS44,
+.buttonS45,
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  top: 901px;
+}
+.buttonS43,
+.buttonS44,
+.buttonS45,
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  top: 810px;
+}
+.buttonS44,
+.buttonS45,
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  top: 723px;
+}
+.buttonS45,
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  top: 640px;
+}
+.buttonS46,
+.buttonS47,
+.buttonS48 {
+  top: 547px;
+}
+.buttonS47,
+.buttonS48 {
+  top: 458px;
+}
+.buttonS48 {
+  top: 376px;
+}
+.criminalList {
+  position: relative;
+  width: 100%;
+  height: 1397px;
+  overflow: hidden;
+  background-image: url(/public/judge-dashbord@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--color-black);
+  font-family: var(--bold-16);
+}

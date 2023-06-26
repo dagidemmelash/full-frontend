@@ -1,0 +1,430 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bereketBogale,
+.profile {
+  position: absolute;
+  top: 102px;
+  left: 101px;
+  font-size: var(--headline-small-size);
+  font-family: var(--bold-16);
+}
+.profile {
+  top: 39px;
+  left: 115px;
+  font-size: var(--font-size-17xl);
+}
+.iconoutlinemail {
+  position: absolute;
+  top: 43px;
+  left: 1268px;
+  width: 31px;
+  height: 36px;
+  overflow: hidden;
+}
+.logout1 {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  font-size: var(--font-size-2xl);
+  line-height: 21px;
+  font-weight: 600;
+  font-family: var(--bold-16);
+  color: var(--color-red-200);
+  text-align: left;
+}
+.iconoutlinelogout {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.crimeType,
+.logout {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.logout {
+  cursor: pointer;
+  padding: 0;
+  top: 2059px;
+  left: 41px;
+  width: 105px;
+  height: 21px;
+}
+.crimeType {
+  font-weight: 600;
+  font-family: var(--body-medium);
+  font-size: var(--font-size-13xl);
+  top: 1254px;
+  left: 376px;
+  line-height: 24px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #afafaf;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+.biometricsRequired,
+.registration2 {
+  position: absolute;
+  font-family: var(--bold-16);
+}
+.biometricsRequired {
+  top: 1923px;
+  left: 879px;
+  font-size: var(--body-medium-size);
+  display: inline-block;
+  width: 166px;
+  height: 24px;
+}
+.registration2 {
+  top: 102px;
+  left: 603px;
+  font-size: var(--font-size-29xl);
+  line-height: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+.registrationChild {
+  position: absolute;
+  top: 1730px;
+  left: 433px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 272px;
+  height: 156px;
+}
+.registrationItem {
+  position: absolute;
+  top: 1730px;
+  left: 848px;
+  border-radius: var(--br-lgi);
+  width: 229px;
+  height: 167px;
+  object-fit: cover;
+}
+.lineIcon,
+.rectangleInput,
+.registrationInner {
+  position: absolute;
+  top: 1757px;
+  left: 474px;
+  width: 197.38px;
+  height: 104.66px;
+}
+.lineIcon,
+.rectangleInput {
+  left: 460.71px;
+  width: 209.29px;
+  height: 101.71px;
+}
+.rectangleInput {
+  top: 1919.5px;
+  left: 474px;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-cornflowerblue-100);
+  width: 196px;
+  height: 30px;
+}
+.rectangleInput:hover {
+  background-color: var(--color-royalblue-100);
+}
+.insertImage {
+  position: absolute;
+  top: 1922px;
+  left: 521px;
+  font-size: var(--body-medium-size);
+  display: inline-block;
+  font-family: var(--bold-16);
+  width: 97px;
+  height: 24px;
+}
+.address,
+.dateOfBirth,
+.fullName {
+  position: absolute;
+  top: 198px;
+  left: 351px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.address,
+.dateOfBirth {
+  top: 344px;
+}
+.dateOfBirth {
+  top: 490px;
+}
+.crimeType1,
+.dateAndTime,
+.gender,
+.marriageStatus,
+.occupation,
+.phoneNumber {
+  position: absolute;
+  top: 625px;
+  left: 351px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.crimeType1,
+.gender,
+.marriageStatus,
+.occupation,
+.phoneNumber {
+  top: 1156px;
+}
+.gender,
+.marriageStatus,
+.occupation,
+.phoneNumber {
+  top: 1288px;
+}
+.marriageStatus,
+.occupation,
+.phoneNumber {
+  top: 763px;
+}
+.occupation,
+.phoneNumber {
+  top: 887px;
+}
+.phoneNumber {
+  top: 1015px;
+}
+.rectangleDiv,
+.registrationChild1,
+.registrationChild2,
+.registrationChild3 {
+  position: absolute;
+  top: 237px;
+  left: 347px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  width: 831px;
+  height: 60px;
+}
+.rectangleDiv:active,
+.registrationChild2:active {
+  cursor: text;
+}
+.registrationChild1,
+.registrationChild2,
+.registrationChild3 {
+  top: 384px;
+  left: 351px;
+}
+.registrationChild2,
+.registrationChild3 {
+  top: 530px;
+}
+.registrationChild3 {
+  top: 665px;
+}
+.rectangleTextarea {
+  border: 0;
+  top: 1196px;
+}
+.rectangleTextarea,
+.registrationChild4,
+.registrationChild5,
+.registrationChild6,
+.registrationChild7 {
+  position: absolute;
+  left: 351px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-100);
+  width: 831px;
+  height: 60px;
+}
+.registrationChild4 {
+  border: 0;
+  top: 1328px;
+}
+.registrationChild5,
+.registrationChild6,
+.registrationChild7 {
+  top: 803px;
+}
+.registrationChild6,
+.registrationChild7 {
+  border: 0;
+  top: 927px;
+}
+.registrationChild7 {
+  top: 1055px;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+}
+.button,
+.buttonS40,
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.buttonS40 {
+  border-radius: var(--br-xs);
+}
+.button {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonS40 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  top: 1980px;
+  left: 637px;
+  width: 220px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS40:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.crimeDescription {
+  position: absolute;
+  top: 1420px;
+  left: 355px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.icon {
+  position: absolute;
+  top: 1750px;
+  left: 914px;
+  width: 96px;
+  height: 127px;
+  object-fit: cover;
+}
+.groupIcon {
+  position: absolute;
+  height: 1.01%;
+  width: 1.59%;
+  top: 11.9%;
+  right: 89.95%;
+  bottom: 87.09%;
+  left: 8.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon1,
+.viewChart {
+  position: absolute;
+  height: 24px;
+}
+.viewChart {
+  text-decoration: none;
+  top: 275.5px;
+  left: 160px;
+  font-size: var(--body-medium-size);
+  font-family: var(--bold-16);
+  color: inherit;
+  display: inline-block;
+  width: 87px;
+  cursor: pointer;
+}
+.viewChart:active,
+.viewChart:hover {
+  color: var(--other-light-background-white);
+}
+.viewChart:hover {
+  cursor: pointer;
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.viewChart:active {
+  text-shadow: 0 4px 4px rgba(76, 63, 63, 0.25);
+}
+.icon1 {
+  top: 346px;
+  left: 119px;
+  width: 24px;
+  overflow: hidden;
+}
+.viewCriminal {
+  text-decoration: none;
+  position: absolute;
+  top: 345.5px;
+  left: 152px;
+  font-size: var(--body-medium-size);
+  font-family: var(--bold-16);
+  color: inherit;
+  cursor: pointer;
+}
+.viewCriminal:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.iconoutlinechartSquareBar {
+  position: absolute;
+  top: 414px;
+  left: 115px;
+  width: 28px;
+  height: 33px;
+  overflow: hidden;
+}
+.registrationChild8 {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 1460px;
+  left: 355px;
+  border-radius: var(--br-xl);
+  width: 830px;
+  height: 206px;
+}
+.registration,
+.registration1 {
+  position: relative;
+  height: 2277px;
+}
+.registration1 {
+  width: 1443px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/authentication@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.registration {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--other-light-background-white);
+  font-family: var(--body-medium);
+}

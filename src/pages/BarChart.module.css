@@ -1,0 +1,483 @@
+.line,
+.line1,
+.line2,
+.line3,
+.line4 {
+  position: absolute;
+  top: calc(50% + 98.5px);
+  left: calc(50% - 318px);
+  background-color: var(--other-light-border);
+  width: 692px;
+  height: 1px;
+}
+.line1,
+.line2,
+.line3,
+.line4 {
+  top: calc(50% + 41.5px);
+}
+.line2,
+.line3,
+.line4 {
+  top: calc(50% - 15.5px);
+}
+.line3,
+.line4 {
+  top: calc(50% - 72.5px);
+}
+.line4 {
+  top: calc(50% - 128.5px);
+}
+.rectangle {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 126px;
+}
+.chart,
+.rectangle,
+.rectangle1 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle1 {
+  top: 126px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 114px;
+}
+.chart {
+  top: calc(50% - 84.5px);
+  left: calc(50% + 230px);
+  height: 240px;
+}
+.rectangle2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 84px;
+}
+.chart1,
+.rectangle2,
+.rectangle3 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle3 {
+  top: 84px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 44px;
+}
+.chart1 {
+  top: calc(50% + 27.5px);
+  left: calc(50% + 154px);
+  height: 128px;
+}
+.rectangle4 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 124px;
+}
+.chart2,
+.rectangle4,
+.rectangle5 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle5 {
+  top: 124px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 26px;
+}
+.chart2 {
+  top: calc(50% + 5.5px);
+  left: calc(50% + 78px);
+  height: 150px;
+}
+.rectangle6 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 150px;
+}
+.chart3,
+.rectangle6,
+.rectangle7 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle7 {
+  top: 150px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 26px;
+}
+.chart3 {
+  top: calc(50% - 20.5px);
+  left: calc(50% + 2px);
+  height: 176px;
+}
+.rectangle8 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 118px;
+}
+.chart4,
+.rectangle8,
+.rectangle9 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle9 {
+  top: 118px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 26px;
+}
+.chart4 {
+  top: calc(50% + 11.5px);
+  left: calc(50% - 74px);
+  height: 144px;
+}
+.rectangle10 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 76px;
+}
+.chart5,
+.rectangle10,
+.rectangle11 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle11 {
+  top: 76px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 88px;
+}
+.chart5 {
+  top: calc(50% - 8.5px);
+  left: calc(50% - 150px);
+  height: 164px;
+}
+.rectangle12 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 120px;
+}
+.chart6,
+.rectangle12,
+.rectangle13 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle13 {
+  top: 120px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 44px;
+}
+.chart6 {
+  top: calc(50% - 8.5px);
+  left: calc(50% - 226px);
+  height: 164px;
+}
+.rectangle14,
+.rectangle15 {
+  position: absolute;
+  left: 0;
+  width: 52px;
+}
+.rectangle14 {
+  top: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 62px;
+}
+.rectangle15 {
+  top: 62px;
+  background-color: var(--palette-blue-60);
+  height: 26px;
+}
+.chart7,
+.line5 {
+  position: absolute;
+  top: calc(50% + 67.5px);
+  left: calc(50% - 302px);
+  width: 52px;
+  height: 88px;
+}
+.line5 {
+  top: calc(50% + 155.5px);
+  left: calc(50% - 318px);
+  background-color: var(--text-light-primary);
+  width: 692px;
+  height: 2px;
+}
+.rectangle16 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--palette-blue-30);
+  height: 20px;
+}
+.chart8,
+.rectangle16,
+.rectangle17 {
+  position: absolute;
+  width: 52px;
+}
+.rectangle17 {
+  top: 20px;
+  left: 0;
+  background-color: var(--palette-blue-60);
+  height: 12px;
+}
+.chart8 {
+  top: calc(50% + 123.5px);
+  left: calc(50% + 306px);
+  height: 32px;
+}
+.label,
+.label1,
+.label2,
+.label3,
+.label4 {
+  position: absolute;
+  top: calc(50% - 139.5px);
+  left: calc(50% - 374px);
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+}
+.label1,
+.label2,
+.label3,
+.label4 {
+  top: calc(50% - 82.5px);
+}
+.label2,
+.label3,
+.label4 {
+  top: calc(50% - 25.5px);
+}
+.label3,
+.label4 {
+  top: calc(50% + 31.5px);
+}
+.label4 {
+  top: calc(50% + 88.5px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label5,
+.label6,
+.label7,
+.label8,
+.label9 {
+  position: absolute;
+  top: calc(50% + 169.5px);
+  left: calc(50% - 296px);
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label6,
+.label7,
+.label8,
+.label9 {
+  left: calc(50% - 220px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label7,
+.label8,
+.label9 {
+  left: calc(50% - 144px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label8,
+.label9 {
+  left: calc(50% - 68px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label9 {
+  left: calc(50% + 8px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 84px);
+}
+.label11,
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 160px);
+}
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 236px);
+}
+.label13,
+.label14 {
+  left: calc(50% + 312px);
+}
+.label14 {
+  top: calc(50% + 145.5px);
+  left: calc(50% - 374px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line6,
+.line7,
+.line8,
+.line9 {
+  position: absolute;
+  top: calc(50% + 157.5px);
+  left: calc(50% - 277px);
+  background-color: var(--text-light-primary);
+  width: 2px;
+  height: 8px;
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line7,
+.line8,
+.line9 {
+  left: calc(50% - 201px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line8,
+.line9 {
+  left: calc(50% - 125px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line9 {
+  left: calc(50% - 49px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 27px);
+}
+.line11,
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 103px);
+}
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 179px);
+}
+.line13,
+.line14 {
+  left: calc(50% + 255px);
+}
+.line14 {
+  left: calc(50% + 331px);
+}
+.rectangle18 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-blue-30);
+  width: 24px;
+  height: 24px;
+}
+.label16 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+  flex-shrink: 0;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.rectangle19 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-blue-60);
+  width: 24px;
+  height: 24px;
+}
+.label15 {
+  position: absolute;
+  top: calc(50% - 190.5px);
+  left: calc(50% + 190px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+}
+.barChart {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--other-light-background-white);
+  width: 100%;
+  height: 507px;
+  text-align: center;
+  font-size: var(--body-medium-size);
+  color: var(--text-light-primary);
+  font-family: var(--body-medium);
+}

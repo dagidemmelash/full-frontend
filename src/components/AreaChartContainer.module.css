@@ -1,0 +1,307 @@
+.componentName {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line,
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+  position: absolute;
+  top: calc(50% + 98.5px);
+  left: calc(50% - 318px);
+  border: 1px solid var(--other-light-border);
+  box-sizing: border-box;
+  width: 692px;
+  height: 1px;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+  top: calc(50% + 41.5px);
+}
+.line2,
+.line3,
+.line4,
+.line5 {
+  top: calc(50% - 15.5px);
+}
+.line3,
+.line4,
+.line5 {
+  top: calc(50% - 72.5px);
+}
+.line4,
+.line5 {
+  top: calc(50% - 129.5px);
+}
+.line5 {
+  top: calc(50% + 155.5px);
+  background-color: var(--text-light-primary);
+  border: 1px solid var(--text-light-primary);
+  height: 2px;
+}
+.label,
+.label1,
+.label2,
+.label3,
+.label4 {
+  position: absolute;
+  top: calc(50% - 139.5px);
+  left: calc(50% - 374px);
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+}
+.label1,
+.label2,
+.label3,
+.label4 {
+  top: calc(50% - 82.5px);
+}
+.label2,
+.label3,
+.label4 {
+  top: calc(50% - 25.5px);
+}
+.label3,
+.label4 {
+  top: calc(50% + 31.5px);
+}
+.label4 {
+  top: calc(50% + 88.5px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label5,
+.label6,
+.label7,
+.label8,
+.label9 {
+  position: absolute;
+  top: calc(50% + 169.5px);
+  left: calc(50% - 296px);
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label6,
+.label7,
+.label8,
+.label9 {
+  left: calc(50% - 220px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label7,
+.label8,
+.label9 {
+  left: calc(50% - 144px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label8,
+.label9 {
+  left: calc(50% - 68px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14,
+.label9 {
+  left: calc(50% + 8px);
+}
+.label10,
+.label11,
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 84px);
+}
+.label11,
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 160px);
+}
+.label12,
+.label13,
+.label14 {
+  left: calc(50% + 236px);
+}
+.label13,
+.label14 {
+  left: calc(50% + 312px);
+}
+.label14 {
+  top: calc(50% + 145.5px);
+  left: calc(50% - 374px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line6,
+.line7,
+.line8,
+.line9 {
+  position: absolute;
+  top: calc(50% + 157.5px);
+  left: calc(50% - 277px);
+  background-color: var(--text-light-primary);
+  width: 2px;
+  height: 8px;
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line7,
+.line8,
+.line9 {
+  left: calc(50% - 201px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line8,
+.line9 {
+  left: calc(50% - 125px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14,
+.line9 {
+  left: calc(50% - 49px);
+}
+.line10,
+.line11,
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 27px);
+}
+.line11,
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 103px);
+}
+.line12,
+.line13,
+.line14 {
+  left: calc(50% + 179px);
+}
+.line13,
+.line14 {
+  left: calc(50% + 255px);
+}
+.line14 {
+  left: calc(50% + 331px);
+}
+.rectangle {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-purple-60);
+  width: 24px;
+  height: 24px;
+}
+.label16 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 40px;
+  flex-shrink: 0;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.rectangle1 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-blue-60);
+  width: 24px;
+  height: 24px;
+}
+.label15 {
+  position: absolute;
+  top: calc(50% - 191.5px);
+  left: calc(50% + 190px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+}
+.lineChartIcon,
+.lineChartIcon1 {
+  position: absolute;
+  top: 193px;
+  left: 137px;
+  width: 694px;
+  height: 216px;
+}
+.lineChartIcon1 {
+  top: 249px;
+  height: 160px;
+}
+.lineChart {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--other-light-background-white);
+  width: 832px;
+  height: 507px;
+  text-align: center;
+  font-size: var(--body-medium-size);
+  color: var(--text-light-primary);
+}
+.areaChart {
+  width: 832px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--other-light-background-white);
+  font-family: var(--body-medium);
+}

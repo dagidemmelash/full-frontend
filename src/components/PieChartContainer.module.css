@@ -1,0 +1,170 @@
+.componentName {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-blue-60);
+  width: 24px;
+  height: 24px;
+}
+.label1 {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  flex-shrink: 0;
+}
+.color {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.rectangle1,
+.rectangle2,
+.rectangle3 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--palette-blue-50);
+  width: 24px;
+  height: 24px;
+}
+.rectangle2,
+.rectangle3 {
+  background-color: var(--palette-blue-40);
+}
+.rectangle3 {
+  background-color: var(--palette-blue-30);
+}
+.label {
+  position: absolute;
+  top: calc(50% + 128px);
+  left: calc(50% - 356px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+}
+.label5,
+.label6,
+.label7,
+.label8 {
+  position: absolute;
+  top: calc(50% - 58px);
+  left: calc(50% + 116px);
+  line-height: 24px;
+  display: inline-block;
+  width: 80px;
+}
+.label6,
+.label7,
+.label8 {
+  top: calc(50% + 70px);
+}
+.label7,
+.label8 {
+  top: calc(50% - 58px);
+  left: calc(50% + 276px);
+}
+.label8 {
+  top: calc(50% + 70px);
+}
+.pieChartIcon {
+  position: absolute;
+  top: calc(50% - 150.38px);
+  left: calc(50% - 356.38px);
+  width: 240.38px;
+  height: 240.38px;
+}
+.pieChartIcon1,
+.pieChartIcon2,
+.pieChartIcon3,
+.pieChartIcon4 {
+  position: absolute;
+  top: calc(50% - 150.13px);
+  left: calc(50% + 275.87px);
+  width: 80.13px;
+  height: 80.13px;
+}
+.pieChartIcon2,
+.pieChartIcon3,
+.pieChartIcon4 {
+  top: calc(50% - 22.13px);
+}
+.pieChartIcon3,
+.pieChartIcon4 {
+  left: calc(50% + 115.87px);
+}
+.pieChartIcon4 {
+  top: calc(50% - 150.13px);
+}
+.rectangleIcon {
+  position: relative;
+  width: 12px;
+  height: 16px;
+}
+.loremIpsumDolor {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 176px;
+}
+.tooltip1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-dimgray-200);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.tooltip {
+  position: absolute;
+  top: calc(50% - 115px);
+  left: calc(50% - 176px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--other-light-background-white);
+}
+.pieChart1 {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--other-light-background-white);
+  width: 832px;
+  height: 428px;
+  text-align: center;
+  font-size: var(--body-medium-size);
+  color: var(--text-light-primary);
+}
+.pieChart {
+  width: 832px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--other-light-background-white);
+  font-family: var(--body-medium);
+}

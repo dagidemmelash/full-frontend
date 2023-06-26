@@ -1,0 +1,1195 @@
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18),
+      0 0 rgba(62, 62, 62, 0.18), 0 0 rgba(62, 62, 62, 0.18);
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    box-shadow: 1px -1px rgba(62, 62, 62, 0.18), 2px -2px rgba(62, 62, 62, 0.18),
+      3px -3px rgba(62, 62, 62, 0.18), 4px -4px rgba(62, 62, 62, 0.18),
+      5px -5px rgba(62, 62, 62, 0.18), 6px -6px rgba(62, 62, 62, 0.18),
+      7px -7px rgba(62, 62, 62, 0.18), 8px -8px rgba(62, 62, 62, 0.18);
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.manage {
+  top: 208px;
+  left: 1040px;
+  font-size: var(--headline-small-size);
+  display: inline-block;
+  width: 92px;
+  height: 32px;
+}
+.manage,
+.profile,
+.title {
+  position: absolute;
+}
+.profile {
+  margin: 0;
+  top: 40px;
+  left: 45px;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  font-family: inherit;
+}
+.title {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 71px;
+  height: 22.31px;
+}
+.digits,
+.elementsLineGorizontal,
+.elementsLineGorizontal1 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 332px;
+  height: 5.31px;
+}
+.digits,
+.elementsLineGorizontal1 {
+  width: 268px;
+}
+.digits {
+  top: 5.31px;
+  left: 195px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: right;
+  display: inline-block;
+  width: 143px;
+  height: 22.31px;
+}
+.crimeType {
+  position: absolute;
+  top: 267.6px;
+  left: 1040px;
+  width: 338px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+}
+.digits1,
+.title1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 44px;
+  height: 22.31px;
+}
+.digits1 {
+  top: 1.06px;
+  left: 277px;
+  text-align: right;
+  width: 59px;
+}
+.elementsLineGorizontal3,
+.region {
+  position: absolute;
+  top: 30.67px;
+  left: 0;
+  width: 215.44px;
+  height: 5.52px;
+}
+.region {
+  top: 331.34px;
+  left: 1040px;
+  width: 336px;
+  height: 36.19px;
+  font-size: var(--regular-13-size);
+}
+.digits2,
+.title2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 48px;
+  height: 22.31px;
+}
+.digits2 {
+  top: 1.06px;
+  left: 260px;
+  text-align: right;
+  width: 76px;
+}
+.elementsLineGorizontal5 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 110px;
+  height: 5.31px;
+}
+.gender,
+.title3 {
+  position: absolute;
+}
+.gender {
+  top: 396.14px;
+  left: 1040px;
+  width: 336px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+}
+.title3 {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 26px;
+  height: 22.31px;
+}
+.age,
+.elementsLineGorizontal7 {
+  position: absolute;
+  top: 30.81px;
+  left: 0;
+  width: 42px;
+  height: 5.31px;
+}
+.age {
+  top: 459.88px;
+  left: 1040px;
+  width: 336px;
+  height: 36.12px;
+  font-size: var(--regular-13-size);
+}
+.seeAllCriminals {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  line-height: 18px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.iconoutlinecheveronRight {
+  position: absolute;
+  top: 1px;
+  left: 137px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  opacity: 0.5;
+}
+.btn {
+  position: absolute;
+  top: 1100px;
+  left: 1055px;
+  width: 151px;
+  height: 18px;
+  text-align: right;
+  font-size: var(--bold-11px-cap-size);
+}
+.jennyWilson {
+  position: absolute;
+  top: 0;
+  left: 49px;
+  line-height: 22px;
+}
+.imageIcon {
+  position: absolute;
+  top: 6.64px;
+  left: 0;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.wlawsonexamplecom {
+  position: absolute;
+  top: 25px;
+  left: 49px;
+  line-height: 22px;
+  color: var(--color-dimgray-100);
+}
+.title11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 203px;
+  height: 47px;
+}
+.adama,
+.cybercrime {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  line-height: 22px;
+}
+.cybercrime {
+  top: 0;
+  left: 0;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--other-light-background-white);
+}
+.title21 {
+  position: absolute;
+  top: 1px;
+  left: 262px;
+  width: 74px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.div {
+  top: 819px;
+  left: 1045px;
+  width: 336px;
+  height: 47px;
+  font-size: var(--regular-13-size);
+}
+.awasa,
+.div,
+.title12 {
+  position: absolute;
+}
+.title12 {
+  top: 0;
+  left: 0;
+  width: 217px;
+  height: 47px;
+}
+.awasa {
+  top: 24px;
+  left: 34px;
+  line-height: 22px;
+}
+.div1,
+.title13 {
+  position: absolute;
+  height: 47px;
+}
+.div1 {
+  top: 888px;
+  left: 1045px;
+  width: 336px;
+  font-size: var(--regular-13-size);
+}
+.title13 {
+  top: 0;
+  left: 0;
+  width: 196px;
+}
+.addisAbaba {
+  top: 24px;
+  left: 0;
+  line-height: 22px;
+}
+.addisAbaba,
+.fraud,
+.title23 {
+  position: absolute;
+}
+.fraud {
+  top: 0;
+  left: 43px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--other-light-background-white);
+}
+.title23 {
+  top: 1px;
+  left: 257px;
+  width: 79px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.div2,
+.title14 {
+  position: absolute;
+  height: 47px;
+}
+.div2 {
+  top: 957px;
+  left: 1045px;
+  width: 336px;
+  font-size: var(--regular-13-size);
+}
+.title14 {
+  top: 0;
+  left: 0;
+  width: 193px;
+}
+.diredawa {
+  position: absolute;
+  top: 24px;
+  left: 31px;
+  line-height: 22px;
+}
+.title24 {
+  position: absolute;
+  top: 1px;
+  left: 245px;
+  width: 91px;
+  height: 46px;
+  text-align: right;
+  color: var(--color-dimgray-100);
+}
+.criminalRecordsSummary,
+.div3 {
+  position: absolute;
+  left: 1045px;
+  font-size: var(--regular-13-size);
+}
+.div3 {
+  top: 1026px;
+  width: 336px;
+  height: 47px;
+}
+.criminalRecordsSummary {
+  top: 768px;
+  line-height: 22px;
+  color: var(--color-dimgray-100);
+}
+.recentCriminals,
+.text {
+  position: absolute;
+  top: 740px;
+  left: 1045px;
+  line-height: 24px;
+}
+.text {
+  top: 152px;
+  left: 1040px;
+  display: inline-block;
+  color: var(--color-whitesmoke-200);
+  width: 226px;
+  height: 25px;
+}
+.last7Days {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 20px;
+  font-weight: 500;
+}
+.iconoutlinecheveronDown {
+  position: absolute;
+  top: 5px;
+  left: 68px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+}
+.sort {
+  position: absolute;
+  top: 155px;
+  left: 1310px;
+  width: 82px;
+  height: 20px;
+  text-align: right;
+  font-size: var(--semi-bold-11-size);
+  color: var(--color-whitesmoke-100);
+}
+.bereketBogale1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bereketBogale,
+.inputtextStyle2 {
+  position: absolute;
+  top: 87px;
+  left: 36px;
+  width: 178px;
+  height: 30px;
+  font-size: var(--headline-small-size);
+}
+.inputtextStyle2 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--bold-16);
+  font-size: var(--body-small-size);
+  background-color: var(--other-light-background-white);
+  top: 49px;
+  left: 330px;
+  border-radius: var(--br-7xs);
+  width: 583px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.logout1 {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.iconoutlinelogout {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.logout {
+  text-decoration: none;
+  position: absolute;
+  top: 1221px;
+  left: 102px;
+  width: 105px;
+  height: 21px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+  color: var(--color-red-200);
+}
+.logout:hover {
+  animation: 1s ease 0s 1 normal none shadow-pop-tr;
+  opacity: 1;
+}
+.judgeDashbordChild {
+  position: absolute;
+  top: 239px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 48px;
+}
+.detailsOfCriminals,
+.nameOfCriminals,
+.no {
+  position: absolute;
+  top: 251px;
+  left: 273px;
+  line-height: 24px;
+  color: var(--color-black);
+}
+.detailsOfCriminals,
+.nameOfCriminals {
+  left: 501px;
+  color: var(--color-gray-100);
+}
+.detailsOfCriminals {
+  left: 792px;
+}
+.judgeDashbordInner,
+.judgeDashbordItem,
+.rectangleDiv {
+  position: absolute;
+  top: 343px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 64px;
+}
+.judgeDashbordInner,
+.rectangleDiv {
+  top: 603px;
+}
+.rectangleDiv {
+  top: 425px;
+}
+.judgeDashbordChild1,
+.judgeDashbordChild2,
+.judgeDashbordChild3,
+.judgeDashbordChild4,
+.judgeDashbordChild5 {
+  position: absolute;
+  top: 863px;
+  left: 210px;
+  background-color: var(--color-gainsboro-100);
+  width: 782px;
+  height: 64px;
+}
+.judgeDashbordChild2,
+.judgeDashbordChild3,
+.judgeDashbordChild4,
+.judgeDashbordChild5 {
+  top: 685px;
+}
+.judgeDashbordChild3,
+.judgeDashbordChild4,
+.judgeDashbordChild5 {
+  top: 514px;
+  left: 211px;
+}
+.judgeDashbordChild4,
+.judgeDashbordChild5 {
+  top: 945px;
+  left: 210px;
+}
+.judgeDashbordChild5 {
+  top: 774px;
+  left: 211px;
+}
+.b,
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  position: absolute;
+  top: 357px;
+  left: 277px;
+  line-height: 24px;
+  color: var(--color-black);
+}
+.b1,
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 617px;
+}
+.b2,
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 439px;
+}
+.b3,
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 877px;
+}
+.b4,
+.b5,
+.b6,
+.b7 {
+  top: 699px;
+}
+.b5,
+.b6,
+.b7 {
+  top: 528px;
+  left: 278px;
+}
+.b6,
+.b7 {
+  top: 959px;
+  left: 277px;
+}
+.b7 {
+  top: 788px;
+  left: 278px;
+}
+.biniyamMoges,
+.biniyamMoges1,
+.biniyamMoges2 {
+  position: absolute;
+  top: 357px;
+  left: 512px;
+  line-height: 24px;
+  color: var(--color-gray-100);
+}
+.biniyamMoges1,
+.biniyamMoges2 {
+  top: 617px;
+}
+.biniyamMoges2 {
+  top: 439px;
+}
+.biniyamMoges3,
+.biniyamMoges4,
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  position: absolute;
+  top: 877px;
+  left: 512px;
+  line-height: 24px;
+  color: var(--color-gray-100);
+}
+.biniyamMoges4,
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 699px;
+}
+.biniyamMoges5,
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 528px;
+  left: 513px;
+}
+.biniyamMoges6,
+.biniyamMoges7 {
+  top: 959px;
+  left: 512px;
+}
+.biniyamMoges7 {
+  top: 788px;
+  left: 513px;
+}
+.viewCriminalInformation {
+  position: absolute;
+  top: 347px;
+  left: 758px;
+  font-size: var(--semi-bold-11-size);
+  line-height: 16px;
+  display: inline-block;
+  color: var(--color-black);
+  text-align: center;
+  width: 208px;
+  height: 12px;
+}
+.viewCriminalInformation1,
+.viewCriminalInformation2,
+.viewCriminalInformation3,
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  position: absolute;
+  top: 428px;
+  left: 759px;
+  font-size: var(--semi-bold-11-size);
+  line-height: 16px;
+  display: inline-block;
+  color: var(--color-black);
+  text-align: center;
+  width: 208px;
+  height: 12px;
+}
+.viewCriminalInformation2,
+.viewCriminalInformation3,
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 521px;
+  left: 766px;
+}
+.viewCriminalInformation3,
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 612px;
+  left: 770px;
+}
+.viewCriminalInformation4,
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 698px;
+  left: 771px;
+}
+.viewCriminalInformation5,
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 786px;
+  left: 770px;
+}
+.viewCriminalInformation6,
+.viewCriminalInformation7 {
+  top: 876px;
+}
+.viewCriminalInformation7 {
+  top: 955px;
+  left: 774px;
+}
+.imageIcon4 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+.avatar,
+.icon,
+.iconoutlinemail {
+  position: absolute;
+  cursor: pointer;
+}
+.avatar {
+  height: 100%;
+  width: 48.28%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 51.72%;
+}
+.icon,
+.iconoutlinemail {
+  overflow: hidden;
+}
+.icon {
+  height: 62.08%;
+  width: 79.44%;
+  top: 18.96%;
+  right: 10.28%;
+  bottom: 18.96%;
+  left: 10.28%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.iconoutlinemail {
+  height: 66.67%;
+  width: 31.03%;
+  top: 18.75%;
+  right: 68.97%;
+  bottom: 14.58%;
+  left: 0;
+}
+.instanceChild {
+  position: absolute;
+  height: 27.08%;
+  width: 14.94%;
+  top: 18.75%;
+  right: 65.52%;
+  bottom: 54.17%;
+  left: 19.54%;
+  border-radius: 50%;
+  background-color: var(--color-red-200);
+}
+.div4 {
+  position: absolute;
+  top: 12.5%;
+  left: 24.14%;
+  line-height: 20px;
+  font-weight: 500;
+}
+.avatarParent {
+  position: absolute;
+  top: 45px;
+  left: 1251px;
+  width: 87px;
+  height: 48px;
+  text-align: right;
+  font-size: var(--font-size-7xs);
+}
+.groupIcon {
+  position: absolute;
+  height: 1.65%;
+  width: 1.6%;
+  top: 17.11%;
+  right: 95.42%;
+  bottom: 81.25%;
+  left: 2.99%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon1,
+.viewChart {
+  position: absolute;
+  height: 24px;
+}
+.viewChart {
+  text-decoration: none;
+  top: 243.5px;
+  left: 81px;
+  color: inherit;
+  display: inline-block;
+  width: 87px;
+  cursor: pointer;
+}
+.viewChart:active,
+.viewChart:hover {
+  color: var(--other-light-background-white);
+}
+.viewChart:hover {
+  cursor: pointer;
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.viewChart:active {
+  text-shadow: 0 4px 4px rgba(76, 63, 63, 0.25);
+}
+.icon1 {
+  top: 314px;
+  left: 40px;
+  width: 24px;
+  overflow: hidden;
+}
+.viewCriminals {
+  text-decoration: none;
+  position: absolute;
+  top: 313.5px;
+  left: 73px;
+  color: inherit;
+  cursor: pointer;
+}
+.viewCriminals:hover,
+.viewReport:hover {
+  animation: 1s ease 0s 1 normal none fade-in;
+  opacity: 1;
+}
+.iconoutlinechartSquareBar {
+  position: absolute;
+  top: 382px;
+  left: 36px;
+  width: 28px;
+  height: 33px;
+  overflow: hidden;
+}
+.viewReport {
+  position: absolute;
+  top: 387px;
+  left: 73px;
+  line-height: 21px;
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--bold-11px-cap-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+  display: none;
+}
+.button,
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  border-radius: var(--br-xs);
+}
+.buttonS48,
+.buttonS64,
+.buttonS66,
+.buttonS68,
+.buttonS70,
+.buttonS72,
+.buttonS74 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-gold-100);
+  position: absolute;
+  top: 375px;
+  left: 769px;
+  border-radius: var(--br-xs);
+  width: 93px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS48:hover,
+.buttonS49:hover,
+.buttonS64:hover,
+.buttonS65:hover,
+.buttonS66:hover,
+.buttonS67:hover,
+.buttonS68:hover,
+.buttonS69:hover,
+.buttonS70:hover,
+.buttonS71:hover,
+.buttonS72:hover,
+.buttonS73:hover,
+.buttonS74:hover,
+.buttonS75:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.buttonS64,
+.buttonS66,
+.buttonS68,
+.buttonS70,
+.buttonS72,
+.buttonS74 {
+  top: 452px;
+  left: 752px;
+}
+.buttonS66,
+.buttonS68,
+.buttonS70,
+.buttonS72,
+.buttonS74 {
+  top: 541px;
+}
+.buttonS68,
+.buttonS70,
+.buttonS72,
+.buttonS74 {
+  top: 637px;
+  left: 749px;
+}
+.buttonS70,
+.buttonS72,
+.buttonS74 {
+  top: 719px;
+  left: 745px;
+}
+.buttonS72,
+.buttonS74 {
+  top: 802px;
+  left: 749px;
+}
+.buttonS74 {
+  top: 893px;
+  left: 755px;
+}
+.label17 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+}
+.label16 {
+  align-self: stretch;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonS49,
+.buttonS65,
+.buttonS67,
+.buttonS69,
+.buttonS71,
+.buttonS73,
+.buttonS75 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  top: 379px;
+  left: 870px;
+  border-radius: var(--br-xs);
+  width: 121px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS65,
+.buttonS67,
+.buttonS69,
+.buttonS71,
+.buttonS73,
+.buttonS75 {
+  top: 456px;
+  left: 853px;
+}
+.buttonS67,
+.buttonS69,
+.buttonS71,
+.buttonS73,
+.buttonS75 {
+  top: 545px;
+}
+.buttonS69,
+.buttonS71,
+.buttonS73,
+.buttonS75 {
+  top: 641px;
+  left: 850px;
+}
+.buttonS71,
+.buttonS73,
+.buttonS75 {
+  top: 723px;
+  left: 846px;
+}
+.buttonS73,
+.buttonS75 {
+  top: 806px;
+  left: 850px;
+}
+.buttonS75 {
+  top: 897px;
+  left: 856px;
+}
+.schedule {
+  position: absolute;
+  top: 379px;
+  left: 900px;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  text-align: center;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule2,
+.schedule3,
+.schedule4,
+.schedule5,
+.schedule6,
+.schedule7 {
+  position: absolute;
+  top: 456px;
+  left: 883px;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  text-align: center;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule3,
+.schedule4,
+.schedule5,
+.schedule6,
+.schedule7 {
+  top: 545px;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule4,
+.schedule5,
+.schedule6,
+.schedule7 {
+  top: 641px;
+  left: 880px;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule5,
+.schedule6,
+.schedule7 {
+  top: 723px;
+  left: 876px;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule6,
+.schedule7 {
+  top: 806px;
+  left: 880px;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7,
+.schedule7 {
+  top: 897px;
+  left: 886px;
+}
+.pending,
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7 {
+  top: 374px;
+  left: 792px;
+  font-size: var(--semi-bold-11-size);
+  color: var(--color-snow);
+}
+.pending2,
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7 {
+  top: 451px;
+  left: 775px;
+}
+.pending3,
+.pending4,
+.pending5,
+.pending6,
+.pending7 {
+  top: 540px;
+}
+.pending4,
+.pending5,
+.pending6,
+.pending7 {
+  top: 636px;
+  left: 772px;
+}
+.pending5,
+.pending6,
+.pending7 {
+  top: 718px;
+  left: 768px;
+}
+.pending6,
+.pending7 {
+  top: 801px;
+  left: 772px;
+}
+.pending7 {
+  top: 892px;
+  left: 778px;
+}
+.judgeDashbord {
+  position: relative;
+  width: 100%;
+  height: 1397px;
+  overflow: hidden;
+  background-image: url(/public/judge-dashbord@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--body-medium-size);
+  color: var(--other-light-background-white);
+  font-family: var(--bold-16);
+}

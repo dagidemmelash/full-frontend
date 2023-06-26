@@ -1,0 +1,222 @@
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.avatarIcon {
+  position: absolute;
+  height: 8.03%;
+  width: 5.96%;
+  top: 5.18%;
+  right: 86.35%;
+  bottom: 86.79%;
+  left: 7.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.text {
+  font-weight: 500;
+}
+.supportingText,
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.textAndSupportingText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatarLabelGroup,
+.dropdownListHeader {
+  width: 193px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dropdownListHeader {
+  position: absolute;
+  height: 10.7%;
+  width: 29.78%;
+  top: 13.21%;
+  right: 64.14%;
+  bottom: 76.09%;
+  left: 6.08%;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.avatarOnlineIndicator {
+  position: absolute;
+  height: 2.17%;
+  width: 1.61%;
+  top: 11.29%;
+  right: 85.67%;
+  bottom: 86.54%;
+  left: 12.72%;
+  border-radius: var(--br-8xs);
+  background-color: var(--success-500);
+  border: 1.5px solid var(--other-light-background-white);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.userIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text1 {
+  position: relative;
+  line-height: 20px;
+}
+.dropdownListItem,
+.dropdownListItem1,
+.dropdownListItem2,
+.dropdownListItem3,
+.dropdownListItem4,
+.dropdownListItem5 {
+  position: absolute;
+  height: 6.69%;
+  width: 29.78%;
+  top: 23.91%;
+  right: 64.14%;
+  bottom: 69.4%;
+  left: 6.08%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.dropdownListItem1,
+.dropdownListItem2,
+.dropdownListItem3,
+.dropdownListItem4,
+.dropdownListItem5 {
+  top: 30.6%;
+  bottom: 62.71%;
+}
+.dropdownListItem2,
+.dropdownListItem3,
+.dropdownListItem4,
+.dropdownListItem5 {
+  top: 37.46%;
+  bottom: 55.85%;
+}
+.dropdownListItem3,
+.dropdownListItem4,
+.dropdownListItem5 {
+  top: 43.81%;
+  bottom: 49.5%;
+}
+.dropdownListItem4,
+.dropdownListItem5 {
+  top: 50%;
+  bottom: 43.31%;
+}
+.dropdownListItem5 {
+  top: 55.85%;
+  bottom: 37.46%;
+}
+.logout {
+  position: absolute;
+  top: 94.48%;
+  left: 10.05%;
+  font-size: var(--body-medium-size);
+  line-height: 21px;
+  font-weight: 600;
+  font-family: var(--bold-16);
+  color: var(--color-red-200);
+}
+.icon,
+.profileChild {
+  position: absolute;
+  height: 2.21%;
+  width: 1.82%;
+  top: 95.22%;
+  right: 90.56%;
+  bottom: 2.58%;
+  left: 7.62%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.profileChild {
+  height: 32.78%;
+  width: 25.81%;
+  top: 17.73%;
+  right: 32.13%;
+  bottom: 49.5%;
+  left: 42.06%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.buttonS40 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  font-size: var(--font-size-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  height: 6.69%;
+  width: 27.3%;
+  top: 54.68%;
+  right: 31.64%;
+  bottom: 38.63%;
+  left: 41.07%;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS40:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.profileItem {
+  position: absolute;
+  height: 16.72%;
+  width: 12.41%;
+  top: 70.74%;
+  right: 33.62%;
+  bottom: 12.54%;
+  left: 53.97%;
+  overflow: hidden;
+}
+.profile {
+  position: relative;
+  width: 806px;
+  height: 598px;
+  overflow: hidden;
+  background-image: url(/public/notification-popup@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  opacity: 0;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--body-small-size);
+  color: var(--other-light-background-white);
+  font-family: var(--text-sm-normal);
+}
+.profile.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-right;
+}

@@ -1,0 +1,44 @@
+.loginPageChild {
+  background-color: var(--color-gray);
+  width: 608px;
+  overflow: hidden;
+}
+.loginPage2,
+.loginPageChild,
+.noiseTexture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1024px;
+}
+.noiseTexture {
+  width: 603px;
+  object-fit: cover;
+}
+.loginPage2 {
+  background-color: var(--color-aliceblue);
+  width: 1440px;
+  overflow: hidden;
+}
+.loginPage1 {
+  background-color: var(--other-light-background-white);
+  overflow: hidden;
+}
+.loginPage1,
+.loginPageInner,
+.loginPageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.loginPageInner {
+  top: -192px;
+  left: -93px;
+}
+.loginPage {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+}

@@ -1,0 +1,183 @@
+.nameGeorgeKassahun {
+  top: 66px;
+  left: calc(50% - 289.86px);
+  width: 403.62px;
+  height: 31.77px;
+  transform: rotate(0.62deg);
+  transform-origin: 0 0;
+}
+.addressGeorginia,
+.nameGeorgeKassahun,
+.phoneNumber0912345678 {
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+}
+.phoneNumber0912345678 {
+  top: 229px;
+  left: calc(50% - 272.86px);
+  width: 355.59px;
+  height: 35.49px;
+  transform: rotate(0.7deg);
+  transform-origin: 0 0;
+}
+.addressGeorginia {
+  top: 307px;
+  left: 184px;
+  width: 230px;
+  height: 31px;
+}
+.age33,
+.dateOfBirth,
+.dateOfCrime,
+.genderMale {
+  position: absolute;
+  top: 269px;
+  left: calc(50% - 251px);
+  font-weight: 800;
+  display: inline-block;
+  width: 306px;
+  height: 34px;
+}
+.age33,
+.dateOfBirth,
+.genderMale {
+  top: 189px;
+  width: 313px;
+  height: 32px;
+}
+.age33,
+.genderMale {
+  top: 149px;
+  left: calc(50% - 176px);
+  width: 163px;
+  height: 31px;
+}
+.age33 {
+  top: 111px;
+  left: calc(50% - 145px);
+  width: 115px;
+  height: 39px;
+}
+.frameChild {
+  position: absolute;
+  top: 70px;
+  left: 560px;
+  background-color: var(--color-gainsboro-100);
+  width: 140px;
+  height: 153px;
+}
+.frameItem {
+  top: 84px;
+  left: 683px;
+  border-right: 4px solid var(--other-light-background-white);
+  width: 4px;
+  height: 23px;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.lineDiv {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameInner {
+  top: 200px;
+  left: 673px;
+  border-top: 4px solid var(--other-light-background-white);
+  width: 24px;
+  height: 4px;
+}
+.frameChild1,
+.lineDiv {
+  top: 184px;
+  left: 693px;
+  border-right: 4px solid var(--other-light-background-white);
+  width: 4px;
+  height: 24px;
+}
+.frameChild1 {
+  top: 90px;
+  left: 571px;
+  height: 20px;
+}
+.frameChild2,
+.frameChild3 {
+  border-top: 4px solid var(--other-light-background-white);
+  height: 4px;
+}
+.frameChild2 {
+  position: absolute;
+  top: 200px;
+  left: 571px;
+  box-sizing: border-box;
+  width: 20px;
+}
+.frameChild3 {
+  top: 84px;
+  left: 668px;
+  width: 23px;
+}
+.frameChild3,
+.frameChild4,
+.frameChild5 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameChild4 {
+  top: 90px;
+  left: 567px;
+  border-top: 4px solid var(--other-light-background-white);
+  width: 23px;
+  height: 4px;
+}
+.frameChild5 {
+  top: 185px;
+  left: 571px;
+  border-right: 4px solid var(--other-light-background-white);
+  width: 4px;
+  height: 23px;
+}
+.icon {
+  position: absolute;
+  top: 79px;
+  left: 578px;
+  width: 96px;
+  height: 127px;
+  object-fit: cover;
+}
+.biometrics {
+  margin: 0;
+}
+.biometricsRegisteredSuccessfContainer {
+  position: absolute;
+  top: 238px;
+  left: 541px;
+  font-weight: 800;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 192px;
+  height: 88px;
+}
+.details {
+  position: absolute;
+  top: 20px;
+  left: 247px;
+  text-decoration: underline;
+  font-weight: 800;
+  color: var(--color-gray-200);
+}
+.nameGeorgeKassahunBeyeneParent {
+  position: absolute;
+  top: 256px;
+  left: 480px;
+  border-radius: var(--br-mini);
+  background-color: var(--other-light-background-white);
+  width: 774px;
+  height: 436px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--headline-small-size);
+  color: var(--color-dimgray-300);
+  font-family: var(--text-sm-normal);
+}

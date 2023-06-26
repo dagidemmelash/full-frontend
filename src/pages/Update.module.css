@@ -1,0 +1,144 @@
+.inputtextStyle2 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--bold-16);
+  font-size: var(--body-small-size);
+  background-color: var(--other-light-background-white);
+  position: absolute;
+  top: 148px;
+  left: 397px;
+  border-radius: var(--br-7xs);
+  width: 646px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.logoutIcon {
+  position: absolute;
+  top: 1336px;
+  left: -28px;
+  width: 100px;
+  height: 21px;
+}
+.profile {
+  position: absolute;
+  top: 119px;
+  left: 183px;
+}
+.bereketBogale,
+.bereketBogale1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bereketBogale {
+  top: 164px;
+  left: 183px;
+  width: 178px;
+  height: 30px;
+  font-size: var(--headline-small-size);
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-medium);
+  color: var(--other-light-background-white);
+  text-align: center;
+}
+.button,
+.buttonS40,
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button,
+.buttonS40 {
+  cursor: pointer;
+  border: 0;
+  border-radius: var(--br-xs);
+}
+.button {
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonS40 {
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--palette-blue-60);
+  position: absolute;
+  top: 419px;
+  left: 554px;
+  width: 220px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.buttonS40:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.updateLevel {
+  position: absolute;
+  top: 45px;
+  left: 470px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-outfit);
+  color: #f8f8f8;
+  text-align: center;
+  display: inline-block;
+  width: 313px;
+  height: 111px;
+}
+.criminalInfoChild {
+  border: 0;
+  background-color: var(--color-gainsboro-100);
+  position: absolute;
+  top: 271px;
+  left: 397px;
+  border-radius: var(--br-3xs);
+  width: 646px;
+  height: 65px;
+}
+.selectLevel {
+  position: absolute;
+  top: 281px;
+  left: 154px;
+  display: inline-block;
+  width: 237px;
+  height: 55px;
+}
+.criminalInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1297px;
+  height: 638px;
+}
+.update {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  overflow: hidden;
+  background-image: url(/public/update@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--other-light-background-white);
+  font-family: var(--bold-16);
+}
